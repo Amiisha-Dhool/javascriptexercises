@@ -15,6 +15,3 @@ for(let peoples of people){
 }
 
 
-for(let key in people){
-    console.log(people[key])
-}
