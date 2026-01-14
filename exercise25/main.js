@@ -7,7 +7,7 @@ console.log(newNumber)
 
 
 //rest operator
-function sum (...numbers){
-    return numbers.reduce((total,num)=> total+num,0)
+function multiplay (...numbers){
+    return numbers.reduce((total,num)=> total*num,1)
 }
-   console.log(sum(30,10.90))
+   console.log(multiplay(30,10))
