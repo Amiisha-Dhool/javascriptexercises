@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="main-title">Simple Blog</h1>
+
+  <!-- Create Post Section -->
+  <div class="container">
+    <h2>Create a New Post</h2>
+
+    <input type="text" id="title" placeholder="Post title">
+    <input type="text" id="image" placeholder="Image URL (optional)">
+    <textarea id="content" placeholder="Write your post here..."></textarea>
+
+    <button id="addPost">Add Post</button>
+  </div>
+
+  <!-- All Posts Section -->
+  <div class="container">
+    <h2>All Posts</h2>
+    <div id="posts"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
